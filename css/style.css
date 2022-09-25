@@ -1,0 +1,452 @@
+:root{
+    --main-color:#0d6efd !important
+}
+header{
+    background-image: url(../assets/header/hero-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+
+    
+
+}
+.header-content h3{
+    font-size: 4.5rem ;  
+}
+header h2::after{
+    content: '|';
+    animation-name: typing;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+    @keyframes typing{
+        0%{
+            content: '|';
+        }
+        2%{
+            content: ' F|';
+        }
+        4%{
+            content: ' Fr|';
+        }
+        6%{
+            content: ' Fre|';
+        }
+        8%{
+            content: ' Free|';
+        }
+        10%{
+            content: ' Freel|';
+        }
+        12%{
+            content: ' Freela|';
+        }
+        14%{
+            content: ' Freelan|';
+        }
+        16%{
+            content: ' Freelanc|';
+        }
+        18%{
+            content: ' Freelance|';
+        }
+        20%{
+            content: ' Freelancer|';
+        }
+        22%{
+            content: ' Freelance|';
+        }
+        24%{
+            content: ' Freelanc|';
+        }
+        26%{
+            content: ' Freelan|';
+        }
+        28%{
+            content: ' Freela|';
+        }
+        30%{
+            content: ' Freel|';
+        }
+        32%{
+            content: ' Free|';
+        }
+        34%{
+            content: ' Fre|';
+        }
+        36%{
+            content: ' Fr|';
+        }
+        38%{
+            content: ' F|';
+        }
+        40%{
+            content: '|';
+        }
+        42%{
+            content: ' |';
+        }
+        44%{
+            content: ' D|';
+        }
+        48%{
+            content: ' De|';
+        }
+        50%{
+            content: ' Dev|';
+        }
+        52%{
+            content: '  Deve|';
+        }
+        54%{
+            content: ' Devel|';
+        }
+        58%{
+            content: ' Develo|';
+        }
+        60%{
+            content: ' Develop|';
+        }
+        62%{
+            content: ' Develope|';
+        }
+        64%{
+            content: ' Developer|';
+        }
+        66%{
+            content: ' Develope|';
+        }
+        68%{
+            content: ' Develop|';
+        }
+        70%{
+            content: ' Develo|';
+        }
+        72%{
+            content: ' Devel|';
+        }
+        74%{
+            content: ' Deve|';
+        } 
+        76%{
+            content: ' Dev|';
+        }
+        78%{
+            content: ' De|';
+        }
+        80%{
+            content: 'D|';
+        }
+        82%{
+            content: '|';
+        }
+        83%{
+            content: ' D|';
+        }
+        84%{
+            content: ' De|';
+        }
+        85%{
+            content: ' Des|';
+        }
+        86%{
+            content: ' Desi|';
+        }
+        87%{
+            content: ' Desig|';
+        }
+        88%{
+            content: ' Design|';
+        }
+        89%{
+            content: ' Designe|';
+        }
+        90%{
+            content: ' Designer|';
+        }
+        91%{
+            content: ' Designe|';
+        }
+        92%{
+            content: ' Design|';
+        }
+        93%{
+            content: ' Desig|';
+        }
+        94%{
+            content: ' Desi|';
+        }
+        95%{
+            content: ' Des|';
+        }
+        96%{
+            content: ' De|';
+        }
+        97%{
+            content: ' D|';
+        }
+        100%{
+            content: '|';
+        }
+       
+        
+    
+    }
+    .header-layer{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0,0.5);
+    }
+    .bdr{
+        border: 2px solid #f1f1f1;
+    }
+.list{
+    list-style: none;
+}
+.rate{
+    height: 10px;
+}
+.rate1{
+    width: 85%;
+}
+
+.rate3{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+}
+.rate4{
+    width: 90%;
+}
+
+.about-me h2::after{
+    content: '';
+    width: 25%;
+    height: 3px;
+    background-color:var(--main-color);
+    position: absolute;
+    left: 0%;
+    display: flex;
+}
+
+.title-serv p::after{
+    content: '';
+    width: 5%;
+    height: 5px;
+    background-color:var(--main-color);
+    position: absolute;
+    left: 47.5%;
+    top: 100%;
+   
+}
+.icon-circle{
+    width: 90px;
+    height: 90px;
+    border: 10px solid var(--main-color);
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 10px auto;
+  transition: background-color 0.5s , border-color 0.5s , color 0.5s ; 
+}
+.icon-circle:hover{
+    background-color: var(--main-color);
+    border-color: #f1f1f1;
+    color: white;
+    
+}
+.layer{
+    background-color:rgba(0,120,255,0.7) ; 
+width: 100%;
+height: 100%;
+}
+.bg-layer{
+    background-image: url(../assets/blog/post-3.jpg);
+    
+    background-size: cover;
+    background-attachment: fixed;
+
+    
+
+}
+.icon-circle2{
+    width: 90px;
+    height: 90px;
+    border: 10px solid white;
+    border-radius: 50%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.item img{
+     transition: transform 0.5s; 
+}
+.item{
+    position: relative;
+}
+.item span{
+    color: var(--main-color);
+
+}
+.item:hover img{
+transform: scale(1.2,1.2);
+
+
+}
+.icon-circle3{
+    width: 50px;
+    height: 50px;
+    border: 5px solid var(--main-color);
+    color: var(--main-color);
+    border-radius: 50%;
+   position: absolute;
+   top: 70%;
+   right: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+.bg-layer2{
+    background-image: url(../assets/testimonial/overlay-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.image-testomnial{
+    width: 150px;
+    border-radius: 50%;
+}
+.carousel-indicators [data-bs-target]{
+    background-color: #f1f1f1;
+    width: 10px;
+height: 10px;
+margin-top: 4rem;
+border-radius: 50%;
+}
+
+.time img{
+    width: 30px;
+}
+.text-link{
+color:black;
+transition: color 1s;
+}
+.text-link a:hover{
+color: var(--main-color);
+}
+.feedback{
+    position: relative;
+}
+.feedback h3::after{
+        content: '';
+        width: 20%;
+        height: 2px;
+        background-color: var(--main-color);
+        position: absolute;
+        left: 0%;
+        top: 8%;
+}
+.Get-in-Touch{
+    position: relative;
+}
+.Get-in-Touch h3::after{
+    content: '';
+    width: 20%;
+    height: 2px;
+    background-color: var(--main-color);
+    position: absolute;
+    left: 0%;
+    top: 100%;
+}
+.btn{
+    background-color: var(--main-color);
+    color: white;
+    border-radius: 5rem;
+    margin-left: 5rem;
+    border: 0;
+    text-align: center;
+    
+}
+.btn:hover{
+    background-color:rgba(13, 110, 253,0.8) ;
+    color: aliceblue;
+    border: #f1f1f1 solid 3px;
+}
+.icon{
+    color: var(--main-color);
+}
+.bg-layer3{
+    background-image: url(../assets/testimonial/overlay-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.icon-circle4{
+    width: 45px;
+    height: 45px;
+    border: 3px solid var(--main-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.6s ,border-color 1s;
+}
+.icon-circle4:hover{
+    background-color: var(--main-color);
+    border-color: #f1f1f1;
+}
+.desc{
+    background-color: var(--main-color);
+    color: white;
+    width: 20%;
+    height: 25px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    bottom: 15px;
+    border-radius: 10px;
+}
+footer{
+    background-color: var(--main-color);
+}
+
+@media screen and (max-width:768px) {
+    .icon-circle3{
+        width: 50px;
+        height: 50px;
+        border: 5px solid var(--main-color);
+        color: var(--main-color);
+        border-radius: 50%;
+       position: absolute;
+       top: 78%;
+       right: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 2rem;
+    }
+}
+@media screen and (max-width:300px) {
+    .header-content h3{
+        font-size: 3.5rem ;  
+    }
+    .icon-circle3{
+        width: 50px;
+        height: 50px;
+        border: 5px solid var(--main-color);
+        color: var(--main-color);
+        border-radius: 50%;
+       position: absolute;
+       top: 65%;
+       right: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 2rem;
+    }
+}
